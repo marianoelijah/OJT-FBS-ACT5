@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --Poppins: "Poppins", sans-serif;
+  --clr--dark: #2b2b2b;
+  --clr-light: #fff;
+  --clr-ltgreen: #d9ded8;
+  --clr-prgreen: #e1e6e0;
+  --clr-tertiary: #d7ded7;
+  --h1: 90px;
+  --h2: 33px;
+  --h3: 24px;
+  --h4: 16px;
+  --h5: 12px;
+  --h6: 10px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  color: var(--clr-dark);
+  font-family: var(--truculenta);
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time {
+  display: block;
+}
+p {
+  font-family: var(--Poppins);
+}
+html {
+  font-family: var(--Poppins), sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+/* HEADER *
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    transition: 0.6s;
+    transform: translateY(5rem);
+    padding: 40px 100px;
+}
+.header__logo {
+    position: relative;
+    transition: 0.6s;
+}
+.header__wrapper ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav {
+    display: flex;
+    gap: 2rem;
+}
+.header__nav li a {
+    position: relative;
+    background-color: transparent;
+    color: var(--clr-light);
+    font-weight: 300;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 1rem 2rem;
+}
+.header.dark {
+  margin-top: 5rem;
+  background-color: var(--clr--dark);
+  border-radius: 1rem;
+  transition: 0.5s ease;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999
+}
+.header.dark .container {
+  margin-top: 5rem;
+  background: var(--clr--dark);
+  border-radius: 1rem;
+  transition: 0.5s ease;
+}
+.header .container {
+  transition: 0.5s ease;
+}
+.header img {
+  width: 10rem;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  gap: 3rem;
+}
+.header__nav li a {
+  color: var(--clr-light);
+}
+
+/* BANNER */
+.insight__Banner {
+  position: relative;
+  background: url(./img/banner-img.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  /* details */
+  display: flex;
+  font-display: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.insight__wrapper h1 {
+  display: block;
+  font-size: var(--h1);
+  color: var(--clr-light);
+  font-weight: 400;
+}
+
+/* SERVICES */
+
+
+
+
